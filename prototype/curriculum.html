@@ -10,11 +10,23 @@
   </head>
 
 <body>
-    <header>
-    <img class = 'logo'
-    src = "https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/images/creativekids.svg"
-    alt ="Creative Kidz Kinder Care Logo"/>
+  <header>
+    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class = 'logo' alt = 'logo' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
+   <style type="text/css">
+	.st0{fill:#97C9AB;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:7.5122;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  </style>
+  <circle class="st0" cx="497.7" cy="269.4" r="238.7"/>
+  <path class="st1" d="M532,279.6c-33,54.3-89.1,101.4-141.1,95.5c-55.8-6.4-62.8-58.1-37.4-108.4c31.5-62.2,117.3-75.8,112.7-4.4
+	 M523.8,290.4c9-12.3,39.4-64,49.4-94.8c10.2-32,14.6-76.3-8.5-76.3c-25.6,0-34.1,53.5-38.9,86.6c-5.6,38.2-9.2,90.4-10.8,97.6
+	c-5.9,30-9.5,73.3-21.5,89.7 M531.5,280.9c-4.1,22.5,57.6,11.5,53.8-15.9c-3.1-22.5-31-33.3-52.5,13.1 M529.4,294.5
+	c0,39.4,31.3,76.6,56.1,77.9c52.3,2.8,57.6-37.9,57.6-42.8"/>
+</svg>
     <h1>Creative Kidz Kinder Care</h1>
+
     <nav>
         <ul class="navbar">
           <li><a href="index.html">Home</a></li>
@@ -24,13 +36,33 @@
           <li>Testimonials</li>
       </ul>
     </nav>
-</header>
 
+  </header>
+
+ <div class = "main1">
   <main>
 
-    <!--Carousal Photos Displayed-->
+  <!-- Add the code for your slider -->
+  <!-- Create a DIV with the class "carousel-cell" for each item you'd like in your slider.  Note, for images, it's best to resize them all to the same height and width -->
+  <div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'
+           >
+    <div class="carousel-cell">
+              <img src="https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/images/ChildDaycarePlayground2.JPG">
+      </div>
+    <div class="carousel-cell">
+              <img src="https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/images/daycare-2.jpg">
+      </div>
+      <div class="carousel-cell">
+              <img src="https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/images/DSC_0252.jpg">
+      </div>
+  </div>
 
-  <h1>Curriculum</h1>
+  <!-- Flickity hosts the appropriate CSS and JavaScript for you, so you don't need to download them if you don't want to.  Add the Flickity JavaScript and CSS File to the end of your HTML (before the closing body tag) -->
+
+  <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
+
+  <h1 class= 'curriculum'>Curriculum</h1>
   <p>We know that children learn best when they're actively engaged.
   Children have the opportunity to discover their own special talents
   and best ways to learn while feeling valued for who they are,

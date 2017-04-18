@@ -1,11 +1,241 @@
-body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+/* Colors
+
+// Light Gray: #
+// Light Green: #97C9AB
+// Pink/Red: #E47070
+// Light Purple: #C2A9DB
+
+*/
+
+/* Universal */
+
+* {
+  box-sizing: border-box;
+  margin: auto;
+  font-family: "Yuanti TC", Serif;
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
+/* SVG File */
+
+svg {
+  display: block;
+  margin: auto;
+  width: 20%;
+  text-align: center;
 }
+
+/* Headers */
+
+header {
+  background-color: #C2A9DB;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+h1 {
+  font-family: "HanziPen TC", Serif;
+  font-size: 64px;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-family: "HanziPen TC", Serif;
+  font-size: 64px;
+  color: white;
+  margin: 0;
+}
+
+/* Header Image for Background */
+
+/* Headers 2 */
+
+h2 {
+    font-family: "Yuanti TC", Serif;
+    font-size: 40px;
+    margin-bottom: .2em;
+    padding: 0;
+    border-bottom: .05em dotted #97C9AB;
+    text-align: center; 
+
+}
+
+h3 {
+  font-family: "Yuanti TC", Serif;
+  padding: 0;
+  margin: auto;
+  font-size: 24px;
+}
+
+/* Navigation Bar Main */
+
+nav ul {
+  background-color: white;
+  border-top: .1em solid gray;
+  border-bottom: .1em solid gray;
+  list-style: none;
+	text-align: center;
+  font-size: 18px;
+  font-family: "Yuanti TC", Serif;
+  margin: 0;
+	padding: .2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  padding: .7em;
+  text-decoration: none;
+}
+
+nav li:hover {
+	color: #E47070;
+}
+
+/* NavBar Curriculum */
+
+.MoreCurriculum ul {
+	list-style-type: none;
+  text-align: center;
+	margin: 0;
+	padding: 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: "Yuanti TC", Serif;
+  text-decoration: none;
+  border-bottom:
+}
+
+/* Body */
+
+body {
+  margin: 0;
+	padding: 0;
+}
+
+/* Images */
+
+img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+/* Paragraph */
+
+p {
+  padding: .5em;
+}
+
+
+/* Main */
+
+main {
+  padding: 0;
+}
+
+.main1 {
+  border-top: .8em solid #97C9AB;
+  border-right: .8em solid #E47070;
+  border-left: .8em solid #E47070;
+  border-bottom: .8em solid #97C9AB;
+  padding: 1.2em;
+}
+
+
+/* Apply Here Button */
+
+.apply {
+    text-alight: center;
+    padding: 1em;
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    transition: .3s background-color ease-in-out;
+}
+
+.apply:hover, .apply:focus {
+    background-color: #E47070;
+}
+
+
+/* Sign Up Button */
+
+.SignUp {
+  text-alight: center;
+  padding: .5em;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  transition: .3s background-color ease-in-out;
+}
+
+.SignUp:hover, .SignUp:focus {
+    background-color: #E47070;
+}
+
+/* Careers Images */
+
+/* Careers Fonts */
+
+.careersfont {
+  color: black;
+}
+
+/* Curriculum Fonts */
+
+.curriculum {
+  color: black;
+  padding-top: .5em;
+}
+
+/* Footer */
+
+footer {
+  background-color: #C2A9DB;
+  text: white;
+  text-align: center;
+  padding: 1em;
+  font-size: 14px;
+}
+
+
+/* Carousel */
+
+.carousel-cell {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+/* Media Queries
+
+@media screen and (min-width:600px) {
+	nav ul {
+			display: flex;
+			justify-content: space-around;
+	}
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+}
+
+*/
