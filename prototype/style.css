@@ -34,14 +34,19 @@ header {
 }
 
 h1 {
-  font-family: "HanziPen TC", Serif;
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 64px;
   text-align: center;
   color: white;
 }
 
+.curriculum {
+  margin: auto;
+  padding: 0;
+}
+
 .title {
-  font-family: "HanziPen TC", Serif;
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 64px;
   color: white;
   margin: 0;
@@ -49,16 +54,23 @@ h1 {
 
 /* Header Image for Background */
 
-/* Headers 2 */
+/* Headers 2 & 3 */
 
 h2 {
-    font-family: "Yuanti TC", Serif;
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
     font-size: 40px;
     margin-bottom: .2em;
     padding: 0;
-    border-bottom: .05em dotted #97C9AB;
-    text-align: center; 
+    /* border-top: .05em dotted #97C9AB; */
+    text-align: left;
 
+}
+
+.indexpage {
+  text-align: left;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
 }
 
 h3 {
@@ -108,6 +120,12 @@ nav li:hover {
   border-bottom:
 }
 
+.ages {
+  font-family: "Yuanti TC", Serif;
+  font-size: 18px;
+
+}
+
 /* Body */
 
 body {
@@ -118,7 +136,7 @@ body {
 /* Images */
 
 img {
-  max-width: 80%;
+  max-width: 60%;
   display: block;
   margin: auto;
 }
@@ -129,6 +147,10 @@ p {
   padding: .5em;
 }
 
+.p1 {
+  padding: .6em;
+  font-size: 18px;
+}
 
 /* Main */
 
@@ -145,7 +167,7 @@ main {
 }
 
 
-/* Apply Here Button */
+/* Apply & Enroll Here Button */
 
 .apply {
     text-alight: center;
@@ -155,11 +177,37 @@ main {
     color: white;
     text-decoration: none;
     transition: .3s background-color ease-in-out;
+    border-radius: 25px;
 }
 
 .apply:hover, .apply:focus {
     background-color: #E47070;
 }
+
+.enroll {
+    text-alight: center;
+    padding: 1em;
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    transition: .3s background-color ease-in-out;
+    border-radius: 25px;
+}
+
+.enroll:hover, .enroll:focus {
+    background-color: #E47070;
+}
+
+.apply1 {
+  text-decoration: underline;
+
+}
+
+.apply1:hover {
+    color: #E47070;
+}
+
 
 
 /* Sign Up Button */
@@ -172,13 +220,25 @@ main {
   color: black;
   text-decoration: none;
   transition: .3s background-color ease-in-out;
+  border-radius: 25px;
 }
 
 .SignUp:hover, .SignUp:focus {
     background-color: #E47070;
 }
 
-/* Careers Images */
+/* Careers Images Menu */
+
+.Brittany {
+
+}
+
+.Kaleigh, .Brittany, .Kathy, .Megan {
+  border: 2px dotted #C2A9DB;
+  padding: 1em;
+  margin: auto;
+}
+
 
 /* Careers Fonts */
 
@@ -193,13 +253,80 @@ main {
   padding-top: .5em;
 }
 
+
+ /* Accordian Menu  */
+
+ .tab-list {
+   background: #97C9AB;
+   padding: 0;
+   margin: 0;
+ }
+
+ .tab-item {
+   display: block;
+ }
+
+ .tab-item[data-tab-active] {
+   background: #E47070;
+   -webkit-transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+   transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+ }
+
+ .tab-link {
+   color: #fff;
+   display: block;
+   padding: 1rem 2rem;
+   position: relative;
+   text-decoration: none;
+   -webkit-transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+   transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+ }
+
+ .tab-panel {
+   background: white;
+   padding: 1rem;
+ }
+
+ .tab-panel h2 {
+   margin-top: 0;
+ }
+
+ .tab-panel[aria-hidden="true"] {
+   display: none;
+ }
+
+ @media screen and (min-width: 800px) {
+   .tab-item {
+     display: inline-block;
+   }
+
+   .tab-link {
+     display: inline-block;
+   }
+
+   .tab-link[data-tab-active]:after {
+     content: '';
+     display: inline-block;
+     margin: auto;
+     position: absolute;
+     bottom: -9px;
+     left: 0;
+     right: 0;
+     width: 0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-top: 10px solid #036800;
+   }
+ }
+
 /* Footer */
 
 footer {
   background-color: #C2A9DB;
   text: white;
   text-align: center;
-  padding: 1em;
+  padding: .5em;
   font-size: 14px;
 }
 
