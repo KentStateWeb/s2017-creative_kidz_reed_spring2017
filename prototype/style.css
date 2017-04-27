@@ -20,9 +20,9 @@
 svg {
   display: block;
   margin: auto;
-  width: 20%;
-  text-align: center;
+  width: 30%;
 }
+
 
 /* Headers */
 
@@ -35,9 +35,8 @@ header {
 
 h1 {
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 64px;
+  font-size: 48px;
   text-align: center;
-  color: white;
 }
 
 .curriculum {
@@ -45,14 +44,12 @@ h1 {
   padding: 0;
 }
 
-.title {
+.titlep {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 64px;
   color: white;
   margin: 0;
 }
-
-/* Header Image for Background */
 
 /* Headers 2 & 3 */
 
@@ -62,16 +59,6 @@ h2 {
     font-size: 40px;
     margin-bottom: .2em;
     padding: 0;
-    /* border-top: .05em dotted #97C9AB; */
-    text-align: left;
-
-}
-
-.indexpage {
-  text-align: left;
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: 40px;
-  border-top: .5em dotted ##97C9AB;
 }
 
 h3 {
@@ -79,6 +66,13 @@ h3 {
   padding: 0;
   margin: auto;
   font-size: 24px;
+}
+
+h4 {
+  font-family: "Yuanti TC", Serif;
+  padding: 0;
+  margin: auto;
+  font-size: 20px;
 }
 
 /* Navigation Bar Main */
@@ -108,12 +102,6 @@ nav li:hover {
   border-radius: 25px;
 }
 
-@media screen and (min-width:750px) {
-	nav ul {
-			display: flex;
-			justify-content: space-around;
-	}
-
   nav li {
     padding: .7em;
     text-decoration: none;
@@ -121,7 +109,14 @@ nav li:hover {
 
   nav li:hover {
   	background-color: #E47070;
+    color: white;
   }
+
+  a {
+    text-decoration: none;
+  }
+a:hover {
+  color: white;
 }
 
 /* NavBar Curriculum */
@@ -136,7 +131,6 @@ nav li:hover {
   font-size: 18px;
   font-family: "Yuanti TC", Serif;
   text-decoration: none;
-  border-bottom:
 }
 
 .ages {
@@ -218,18 +212,21 @@ main {
     background-color: #E47070;
 }
 
-.apply1 {
-  text-decoration: underline;
-
+.apply1, .phone {
+  text-decoration: none;
 }
 
-.apply1:hover {
-    color: #E47070;
+.apply1:hover, .phone:hover {
+    color: white;
+}
+
+.phone:hover, .apply1:hover{
+  background-color: #E47070;
 }
 
 /* Sign Up Button */
 
-.SignUp {
+.SignUp{
   text-alight: center;
   padding: .5em;
   display: inline-block;
@@ -243,6 +240,7 @@ main {
 .SignUp:hover, .SignUp:focus {
     background-color: #E47070;
 }
+
 
 /* Careers Images Menu */
 
@@ -306,7 +304,7 @@ main {
    display: none;
  }
 
- @media screen and (min-width: 800px) {
+ @media screen and (min-width: 700px) {
    .tab-item {
      display: inline-block;
    }
@@ -361,10 +359,67 @@ footer {
 
 /* Media Queries */
 
+@media screen and (max-width: 800px) {
 
-@media screen and (min-width:900px) {
-	main {
-	  margin: 0 auto;
+.titlep, h1 {
+      font-size: 48px;
+    }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+.titlep, h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:700px) {
+	nav ul {
+			display: flex;
+			justify-content: space-around;
 	}
+}
 
+/* At full size on home page, get the page to have an image to right and
+text on left */
+
+@media screen and (max-width: 550px) {
+  .titlep {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
 }
