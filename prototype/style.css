@@ -5,7 +5,14 @@
 // Pink/Red: #E47070
 // Light Purple: #C2A9DB
 
-*/
+
+* Change so images do not have set width, then set up each level
+* Change Line-Heights in Header text (look up, just line-text: 1em;)
+* Make more responsive
+* Figure out curriculum page
+* EDIT ANYTHING you do not like
+* Put 'Apply Here' buttons into div and get it to align to the right instead of
+the left
 
 /* Universal */
 
@@ -39,6 +46,8 @@ h1 {
   text-align: center;
 }
 
+/* Change Line Height for text so it looks good at all levels */
+
 .curriculum {
   margin: auto;
   padding: 0;
@@ -62,14 +71,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Yuanti TC", Serif;
-  padding: .2em;
-  margin: auto;
-  font-size: 24px;
-}
-
-.join {
-  font-family: "Yuanti TC", Serif;
+  font-family: 'Gloria Hallelujah', Serif;
   padding: .2em;
   margin: auto;
   font-size: 24px;
@@ -156,7 +158,7 @@ body {
 /* Images */
 
 img {
-  max-width: 60%;
+  max-width: 80%;
   display: block;
   margin: auto;
 }
@@ -180,10 +182,11 @@ main {
 
 @media screen and (min-width:750px) {
   main {
-    padding: 4em 6em 4em 6em;
-
+    max-width: 1000px;
   }
 }
+
+/* take images out of main */
 
 .main1 {
   border-top: 1em solid #97C9AB;
@@ -258,45 +261,23 @@ main {
 
 /* Careers Images Menu */
 
-.Kaleigh, .Brittany, .Kathy, .Megan {
+.profile {
   border: 2px dotted #C2A9DB;
   padding: 1em;
   margin: auto;
 }
 
-/*
-
-.box {
-
-  }
-
-.right {
-
-  }
-
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.careers {
+  max-width: 100%;
+  padding: 1em;
 }
 
 @media screen and (min-width:700px) {
 
-.box {
-  float: left;
-  margin: 0 0 10px 10px;
-  }
-
-  div {
-
-}
-
-.right {
-
+.profile {
+  display: flex;
   }
 }
-
-*/
 
 /* Careers Fonts */
 
@@ -431,7 +412,7 @@ footer {
     font-size: 40px;
   }
 
-  h2 {
+  h2, .staff{
     font-size: 24px;
   }
 
@@ -461,10 +442,14 @@ footer {
 text on left */
 
 @media screen and (max-width: 550px) {
+
+  .titlep, h1 {
+        font-size: 30px;
+      }
+
   p {
     font-size: 14px;
   }
-
   img {
     max-width: 100%;
     display: block;
