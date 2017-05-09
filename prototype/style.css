@@ -154,6 +154,10 @@ nav li:hover {
 
 /* Body */
 
+.Apply {
+  padding-bottom: 1em;
+}
+
 body {
   margin: 0;
 	padding: 0;
@@ -274,15 +278,14 @@ main {
   margin: auto;
 }
 
-
 @media screen and (min-width:650px) {
 
 .profile {
    display: flex;
   }
 
-  .teach img {
-    width: 100%;
+  .teach1 {
+    width: 80%;
   }
 }
 
