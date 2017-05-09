@@ -6,6 +6,20 @@
   padding: .3em;
 }
 
+
+svg {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+header {
+  background-color: #C2A9DB;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
 /* Title */
 
 h1 {

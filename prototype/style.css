@@ -274,16 +274,16 @@ main {
   margin: auto;
 }
 
-@media screen and (min-width:700px) {
+
+@media screen and (min-width:650px) {
 
 .profile {
    display: flex;
   }
 
-.careers {
+  .staff {
     width: 100%;
   }
-
 }
 
 /* Careers Fonts */
