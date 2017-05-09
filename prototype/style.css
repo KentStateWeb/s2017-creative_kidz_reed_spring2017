@@ -280,6 +280,10 @@ main {
    display: flex;
   }
 
+.careers {
+    width: 100%;
+  }
+
 }
 
 /* Careers Fonts */
@@ -425,6 +429,7 @@ footer {
   p {
     font-size: 16px;
   }
+
 }
 
 @media screen and (max-width: 600px) {
