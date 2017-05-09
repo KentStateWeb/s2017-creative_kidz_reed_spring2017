@@ -14,7 +14,6 @@ h1 {
   text-align: center;
 }
 
-
 /* Colors */
 
 ul.colors {
@@ -93,6 +92,18 @@ p {
   text-decoration: underline;
 }
 
+.text {
+  list-style: initial;
+}
+
+.text1 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.text2 {
+  font-family: 'Muli', sans-serif;
+}
+
 
 
 
@@ -115,6 +126,7 @@ p {
 }
 
 /* Navigation */
+/* Navigation Bar Main */
 
 nav {
   background-color: white;
@@ -151,22 +163,14 @@ nav li:hover {
     color: white;
   }
 
-media screen and (min-width:700px) {
-  	nav ul {
-  			display: flex;
-  			justify-content: space-around;
-        font-size: 18px;
-  	}
-
+  a {
+    text-decoration: none;
   }
 
-@media screen and (max-width: 575px) {
-
-  nav ul {
-    font-size: 16px;
+  a:hover {
+    color: white;
   }
 
-}
 
 /* Footer */
 
@@ -176,4 +180,82 @@ footer {
   text-align: center;
   padding: .5em;
   font-size: 14px;
+}
+
+.contact {
+  color: black;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+
+.titlep, h1 {
+      font-size: 48px;
+      line-text: 1em;
+    }
+
+  .curriculum {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+ h1 {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+}
+
+
+@media screen and (min-width:700px) {
+	nav ul {
+			display: flex;
+			justify-content: space-around;
+      font-size: 18px;
+	}
+
+}
+
+
+@media screen and (max-width: 575px) {
+
+  .titlep, h1 {
+        font-size: 28px
+        line-height: 1.3;
+        padding-bottom: .6em;
+      }
+
+  p {
+    font-size: 12px;
+  }
+
+  nav ul {
+    font-size: 16px;
+  }
 }
