@@ -179,17 +179,11 @@ body {
   color: #E47070;
 }
 
-/* Index Page Fonts */
-
-
-
 /* Images */
 
 img {
   max-width: 100%;
   border-radius: 5px;
-  border: 3px solid #E47070;
-  display: flex;
 }
 
 /* Paragraph */
@@ -280,7 +274,6 @@ main {
     background-color: #E47070;
 }
 
-
 /* Careers Images Menu */
 
 .profile {
@@ -289,11 +282,22 @@ main {
   margin: auto;
 }
 
-.teach {
+.information {
   text-align: left;
-  max-width: 50%; 
-  margin: auto;
+  margin-left: 15px;
 }
+
+.extra {
+  max-width: 100%;
+  margin: 10px;
+}
+
+.teach /* image of teachers */ {
+  max-width: 40%;
+  margin: 10px;
+}
+
+
 
 @media screen and (min-width:650px) {
 
@@ -418,6 +422,7 @@ footer {
 .carousel-cell img {
     max-width: 70%;
     height: auto;
+    display: flex;
 }
 
 .carousel:after {
