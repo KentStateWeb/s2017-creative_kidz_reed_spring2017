@@ -1,17 +1,14 @@
-/* Colors
-
-// Light Gray: #
+/* Colorse47
 // Light Green: #97C9AB
 // Pink/Red: #E47070
-// Light Purple: #C2A9DB
 
 New Colors:
 
-Orange: BE6E46
-Green (logo): 97C9AB
-Teal: 60D394 
+Pink/Red: #E47070
+Green (logo): #97C9AB
+Teal: #60D394 
 Light Purple: #B8B8D1 
-Dark Purple: 5B5F97;
+Dark Purple: #5B5F97;
 
 
 * Change Line-Heights in Header text (look up, just line-text: 1em;)
@@ -80,7 +77,7 @@ h3 {
   padding-top: .5em;
   margin: auto;
   font-size: 28px;
-  color: #E47070;
+  color: #5B5F97;
 }
 
 h4 {
@@ -211,7 +208,7 @@ main {
   }
 }
 
-/* take images out of main */
+/* take images out of main */ 
 
 .main1 {
   border-top: 1em solid #97C9AB;
@@ -220,7 +217,6 @@ main {
   border-bottom: 1em solid #97C9AB;
   padding: 1em;
 }
-
 /* Apply & Enroll Here Button */
 
 .button {
@@ -277,37 +273,32 @@ main {
 /* Careers Images Menu */
 
 .profile {
-  border: 2px dotted #97C9AB;
-  padding: .8em;
-  margin: auto;
+  border: 1px solid #60D394;
+  max-width: 1200px;
 }
 
-.information {
-  text-align: left;
-  margin-left: 15px;
-}
-
-.extra {
-  max-width: 100%;
-  margin: 10px;
-}
-
-.teach /* image of teachers */ {
-  max-width: 40%;
-  margin: 10px;
-}
-
+.flex-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .left {
+    text-align: center; 
+  }
 
 
 @media screen and (min-width:650px) {
+  .flex-item {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
 
-.profile {
+  .information {
    display: flex;
-  }
-
-  .teach1 {
-    width: 80%;
-  }
+   padding: 20px;
+   flex-direction: column;
+}
 }
 
 /* Careers Fonts */
