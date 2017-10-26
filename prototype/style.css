@@ -30,13 +30,32 @@ the left
 /* SVG File */
 
 svg {
-  margin: auto;
   width: 30%;
-  text-align: center;
-  display: inline-flex;
+  display: flex; 
   align-self: center; 
 }
 
+.mainarea {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 48px;
+  align-self: center;
+}
+
+@media screen and (max-width: 600px) {
+  .mainarea {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+  h1 {
+    text-align: center;
+    align-self: center;
+  }
+  }
 
 /* Headers, H1 */
 
@@ -45,13 +64,6 @@ header {
   padding: 0;
   border: none;
   margin: 0;
-}
-
-h1 {
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: 48px;
-  display: inline-flex;
-  align-self: center;
 }
 
 .titlep {
