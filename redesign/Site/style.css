@@ -1,0 +1,521 @@
+/* Colorse47
+// Light Green: #97C9AB
+// Pink/Red: #E47070
+
+New Colors:
+
+Light Blue: #BCD2EE;
+Green (logo): #97C9AB
+Bright Green: #82D173;
+Teal: #51A3A3;
+Red: #9B1D20;
+
+h1 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 64px;
+  color: #9B1D20;
+}
+h2 {
+  font-family: 'Roboto Slab';
+  font-size: 36px;
+}
+h3 {
+  font-family: 'Roboto Slab';
+  font-size: 30px;
+  font-weight: 500; 
+  color: #9B1D20;
+}
+h4 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #BCD2EE;
+}
+h5 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 3.6rem;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+* Change Line-Heights in Header text (look up, just line-text: 1em;)
+* Make more responsive
+* Figure out curriculum page
+* EDIT ANYTHING you do not like
+* Put 'Apply Here' buttons into div and get it to align to the right instead of
+the left
+* Change out some pictures, fix sizing, and whatever is mentioned in review
+
+/* Universal & Headings */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 64px;
+  color: #9B1D20;
+}
+h2 {
+  font-family: 'Roboto Slab';
+  font-size: 36px;
+}
+h3 {
+  font-family: 'Roboto Slab';
+  font-size: 30px;
+  font-weight: 500; 
+  color: #9B1D20;
+}
+h4 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #BCD2EE;
+}
+h5 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 36px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/*Top Main*/
+
+.top-main {
+  text-align: center;
+}
+
+.main_logo {
+    display: inline-block;
+    max-width: 150px;
+    vertical-align: middle;
+    margin: 20px 10px;
+}
+
+.main-title {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+/* SVG File */
+
+.mainarea {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+
+.event {
+  text-align: center;
+}
+
+.contact {
+  color: black;
+}
+
+/* Navigation Bar Main */
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  padding: .2em;
+  border-bottom: 1px solid lightgray;
+  text-decoration: none;
+}
+
+nav li {
+  padding: .7em;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #E47070;
+  border-radius: 25px;
+}
+
+  nav li {
+    padding: .7em;
+    text-decoration: none;
+  }
+
+  nav li:hover {
+    background-color: #E47070;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+/* NavBar Curriculum */
+
+.MoreCurriculum ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.ages {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+
+}
+
+/* Body */
+
+.Apply {
+  padding-bottom: 1em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.News {
+  margin: auto;
+  color: #E47070;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Paragraph */
+
+
+.p1 {
+  padding: .6em;
+  font-size: 18px;
+}
+
+/* Main */
+
+main {
+  padding: 1em 2em 1em 2em;
+  max-width: 900px;
+}
+
+@media screen and (min-width:750px) {
+  main {
+      max-width: 1000px;
+  }
+}
+
+/* Apply & Enroll Here Button */
+
+.button {
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    background-color:#B8B8D1;
+    color: black;
+    text-decoration: none;
+    transition: .3s background-color ease-in-out;
+    border-radius: 25px;
+    border: 3px solid #E47070;
+}
+
+.button:hover, .button:focus {
+    background-color: #E47070;
+}
+
+.apply1, .link {
+  text-decoration: underline;
+}
+
+.apply1:hover, .link:hover {
+    color: white;
+}
+
+.link:hover, .apply1:hover{
+  background-color: #E47070;
+}
+
+.buttons {
+  text-align: left;
+  margin: auto;
+  padding: 0;
+}
+
+/* Sign Up Button */
+
+.SignUp{
+  padding: .5em;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  transition: .3s background-color ease-in-out;
+  border-radius: 25px;
+}
+
+.SignUp:hover, .SignUp:focus {
+    background-color: #E47070;
+}
+
+/* Careers Images Menu */
+
+.profile {
+  border: 1px solid #60D394;
+  max-width: 1200px;
+}
+
+.flex-item {
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px dotted #97C9AB;
+  }
+  .left {
+    text-align: center; 
+  }
+
+
+
+@media screen and (min-width:650px) {
+  .flex-item {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .information {
+   display: flex;
+   padding: 20px;
+   flex-direction: column;
+}
+}
+
+/* Careers Fonts */
+
+.careersfont {
+  color: black;
+}
+
+/* Curriculum Fonts */
+
+.curriculum {
+  color: #E47070;
+  padding-top: 0;
+  text-align: center;
+  margin: auto;
+  font-size: 46px;
+  border-bottom: none;
+}
+
+.career {
+  color: #E47070;
+  padding-top: 0;
+  text-align: center;
+  margin: auto;
+  font-size: 46px;
+  border-bottom: none;
+}
+
+ /* Accordian Menu  */
+
+ .tab-list {
+   background: #97C9AB;
+   padding: 0;
+   margin: 0;
+ }
+
+ .tab-item {
+   display: block;
+ }
+
+ .tab-item[data-tab-active] {
+   background: #E47070;
+   -webkit-transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+   transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+ }
+
+ .tab-link {
+   color: #fff;
+   display: block;
+   padding: 1rem 2rem;
+   position: relative;
+   text-decoration: none;
+   -webkit-transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+   transition: all 150ms cubic-bezier(0.42, 0, 1, 1);
+ }
+
+ .tab-panel {
+   background: white;
+   padding: 1rem;
+ }
+
+ .tab-panel h2 {
+   margin-top: 0;
+ }
+
+ .tab-panel[aria-hidden="true"] {
+   display: none;
+ }
+
+ @media screen and (min-width: 700px) {
+   .tab-item {
+     display: inline-block;
+   }
+
+   .tab-link {
+     display: inline-block;
+   }
+
+   .tab-link[data-tab-active]:after {
+     content: '';
+     display: inline-block;
+     margin: auto;
+     position: absolute;
+     bottom: -9px;
+     left: 0;
+     right: 0;
+     width: 0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-top: 10px solid #036800;
+   }
+ }
+
+/* Footer */
+
+footer {
+  background-color: #C2A9DB;
+  padding: .5em;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 40px;
+}
+
+/* Carousel */
+
+.carousel-cell {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-cell img {
+    max-width: 70%;
+    height: auto;
+    display: flex;
+}
+
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+
+.titlep, h1 {
+      font-size: 48px;
+      line-text: 1em;
+    }
+
+  .curriculum {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+.titlep, h1 {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+
+  .curriculum {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  h2, .staff{
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .join {
+    font-size: 18px;
+  }
+
+}
+
+
+@media screen and (min-width:700px) {
+  nav ul {
+      display: flex;
+      justify-content: space-around;
+      font-size: 18px;
+  }
+
+}
+
+/* At full size on home page, get the page to have an image to right and
+text on left */
+
+@media screen and (max-width: 575px) {
+
+  .titlep, h1 {
+        font-size: 28px
+        line-height: 1.3;
+        padding-bottom: .6em;
+      }
+
+  p {
+    font-size: 12px;
+  }
+
+  nav ul {
+    font-size: 16px;
+  }
+}
