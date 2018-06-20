@@ -102,6 +102,10 @@ p {
     margin: 20px 10px;
 }
 
+.homepage_main {
+  width: 1400px;
+}
+
 /* SVG File */
 
 .mainarea {
@@ -205,10 +209,6 @@ body {
 
 /* Images */
 
-img {
-  max-width: 100%;
-  border-radius: 5px;
-}
 
 /* Paragraph */
 
