@@ -188,6 +188,10 @@ a.active:before {
 
 
 
+.fillerImage {
+    width: 1400px;
+}
+
 /* SVG File */
 
 .mainarea {
