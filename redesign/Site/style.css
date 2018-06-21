@@ -100,6 +100,11 @@ p {
     width: 60px;
 }
 
+.page_width {
+    max-width: 1400px;
+    margin: 0 5px;
+}
+
 /* NAVIGATION */
 
 img {
