@@ -180,6 +180,12 @@ a.active:before {
     width: 98%;
 }
 
+.button {
+    margin: 20px 70px;
+    width: 70%;
+    text-align: center;
+}
+
 
 
 /* SVG File */
@@ -275,44 +281,6 @@ main {
 
 /* Apply & Enroll Here Button */
 
-.button {
-    text-align: center;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    background-color: #B8B8D1;
-    color: black;
-    text-decoration: none;
-    transition: .3s background-color ease-in-out;
-    border-radius: 25px;
-    border: 3px solid #E47070;
-}
-
-.button:hover,
-.button:focus {
-    background-color: #E47070;
-}
-
-.apply1,
-.link {
-    text-decoration: underline;
-}
-
-.apply1:hover,
-.link:hover {
-    color: white;
-}
-
-.link:hover,
-.apply1:hover {
-    background-color: #E47070;
-}
-
-.buttons {
-    text-align: left;
-    margin: auto;
-    padding: 0;
-}
 
 
 
