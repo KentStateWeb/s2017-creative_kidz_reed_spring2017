@@ -22,7 +22,6 @@ the left
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -67,17 +66,11 @@ p {
 }
 
 
+
 /*Top Main*/
 
 .top-main {
     text-align: left;
-}
-
-.main_logo {
-    display: inline-block;
-    max-width: 150px;
-    vertical-align: middle;
-    margin: 20px 10px;
 }
 
 .main-title {
@@ -89,13 +82,12 @@ p {
     width: 1400px;
 }
 
-header {
-    background-image: url('https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/Site/images/numbers1400x895.jpg');
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
+.main_logo {
+    position: absolute;
+    margin: 10px 20px;
+    top: 0;
+    width: 60px;
 }
-
 
 /* NAVIGATION */
 
@@ -104,8 +96,11 @@ img {
 }
 
 nav {
-    margin-right: 10px;
-    background-color: red;
+    padding-right: 10px;
+    background-color: #9B1D20;
+    width: 100%;
+    padding: 30px 10px;
+    position: relative;
 }
 
 nav ul {
@@ -121,9 +116,10 @@ nav ul {
 .main-nav li,
 .main-nav a {
     text-decoration: none;
-    font-size: 18px;
-    color: #51A3A3;
+    font-size: 22px;
+    color: #FFF;
     font-weight: 300;
+    font-family: "roboto";
     text-transform: uppercase;
 }
 
@@ -131,14 +127,15 @@ nav ul {
     font-weight: 500;
 }
 
-.active {
+a.active {
     font-weight: 700;
-    color: #9B1D20;
+    color: #97C9AB;
 }
 
-.active:before {
+a.active:before {
     content: ;
 }
+
 
 
 
@@ -169,6 +166,7 @@ nav ul {
 
 
 
+
 /* NavBar Curriculum */
 
 .MoreCurriculum ul {
@@ -189,6 +187,7 @@ nav ul {
 }
 
 
+
 /* Body */
 
 .Apply {
@@ -206,6 +205,7 @@ body {
 }
 
 
+
 /* Images */
 
 
@@ -215,6 +215,7 @@ body {
     padding: .6em;
     font-size: 18px;
 }
+
 
 
 /* Main */
@@ -229,6 +230,7 @@ main {
         max-width: 1000px;
     }
 }
+
 
 
 /* Apply & Enroll Here Button */
@@ -273,6 +275,7 @@ main {
 }
 
 
+
 /* Sign Up Button */
 
 .SignUp {
@@ -289,6 +292,7 @@ main {
 .SignUp:focus {
     background-color: #E47070;
 }
+
 
 
 /* Careers Images Menu */
@@ -326,11 +330,13 @@ main {
 }
 
 
+
 /* Careers Fonts */
 
 .careersfont {
     color: black;
 }
+
 
 
 /* Curriculum Fonts */
@@ -352,6 +358,7 @@ main {
     font-size: 46px;
     border-bottom: none;
 }
+
 
 
 /* Accordian Menu  */
@@ -421,6 +428,7 @@ main {
 }
 
 
+
 /* Footer */
 
 footer {
@@ -430,6 +438,7 @@ footer {
     text-align: center;
     padding-left: 40px;
 }
+
 
 
 /* Carousel */
@@ -450,6 +459,7 @@ footer {
     display: none;
     /* hide :after */
 }
+
 
 
 /* Media Queries */
@@ -505,6 +515,7 @@ footer {
         font-size: 18px;
     }
 }
+
 
 
 
