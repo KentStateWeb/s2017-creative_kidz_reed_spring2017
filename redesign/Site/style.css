@@ -29,6 +29,7 @@ the left
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+    color: #20262B;
 }
 
 h1 {
@@ -64,6 +65,8 @@ h5 {
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
 }
 
 /*Top Main*/
@@ -172,8 +175,8 @@ a.active:before {
 .missionText {
     font-family: 'Roboto Slab';
     font-size: 36px;
-    font-weight: 400;
-    padding: 20px 10px;
+    font-weight: 500;
+    padding: 15px 10px;
     margin-bottom: 10px;
     background-color: #82D173;;
     width: 98%;
@@ -231,14 +234,25 @@ a.active:before {
 }
 
 
+/* Enroll and Application */
 
-
-
-
+#enrollmentSection,
+#ApplicationSection {
+    display: flex;
+    padding: 20px 0;
+}
+.enrollFiller {
+    width: 300px;
+}
+.halfWidth {
+    width: 50%;
+}
+.centerIt {
+    text-align: center;
+}
 .event {
     text-align: center;
 }
-
 .contact {
     color: black;
 }
