@@ -101,17 +101,26 @@ p {
     background-color: #9B1D20;
 }
 
+.flexboxFeature {
+    display: flex;
+}
+
+.whiteText {
+    color: #fff;
+}
+
 /* FOOTER */
 
 footer {
-    background-color: #97C9AB;
+    background-color: #9B1D20;
     padding: 10px;
 }
+
 .footerText {
+    color: #fff;
     font-size: 30px;
-    line-height: 36px;
-    margin-bottom: 10px;
 }
+
 .footerContact {
     width: 50%;
     padding: 0 20px;
@@ -121,24 +130,31 @@ footer {
 }
 
 .footerInfo {
-    width: 100%;
+    width: 30%;
 }
+
 .footerLinks {
-            list-style: none;
+    list-style: none;
     text-align: left;
-    display: flex;
-    justify-content: space-evenly;
 }
+
 .footerLinks li {
     margin: 10px 0;
 }
+
 .footerLinks li a {
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Roboto";
     font-weight: 300;
     color: #FFF;
     text-transform: uppercase;
+    text-decoration: none;
 }
+
+.footerLinks li a:hover {
+    color: #82D173;
+}
+
 
 /*Top Main*/
 
@@ -154,7 +170,7 @@ footer {
 .main-title {
     color: #fff;
     text-shadow: 2px 2px 2px #000;
-    background-color: rgba(188,210,238,.6);
+    background-color: rgba(188, 210, 238, .6);
     padding: 0;
     position: absolute;
     bottom: 0;
@@ -178,6 +194,7 @@ footer {
     max-width: 1200px;
     margin: 0 auto !important;
 }
+
 
 /* NAVIGATION */
 
@@ -226,7 +243,9 @@ a.active:before {
     content: ;
 }
 
+
 /* INDEX PAGE */
+
 
 /* Main Area Div */
 
@@ -243,18 +262,22 @@ a.active:before {
     width: 58%;
     margin-left: 2%;
 }
+
 .missionText {
     font-family: 'Roboto Slab';
     font-size: 36px;
     font-weight: 500;
     padding: 15px 10px;
     margin-bottom: 10px;
-    background-color: #82D173;;
+    background-color: #82D173;
+    ;
     width: 98%;
 }
+
 .ourMisson p {
     width: 98%;
 }
+
 
 /* Middle Image Div */
 
@@ -273,6 +296,7 @@ a.active:before {
     margin-bottom: 0;
 }
 
+
 /* Middle Testimonial Div */
 
 .middleTestimonials {
@@ -286,6 +310,7 @@ a.active:before {
     width: 50%;
     padding: 20px 60px;
 }
+
 .testimonial_text {
     font-size: 24px;
     line-height: 28px;
@@ -305,6 +330,7 @@ a.active:before {
 }
 
 
+
 /* Enroll and Application */
 
 #enrollmentSection,
@@ -312,18 +338,23 @@ a.active:before {
     display: flex;
     padding: 20px 0;
 }
+
 .enrollFiller {
     width: 300px;
 }
+
 .halfWidth {
     width: 50%;
 }
+
 .centerIt {
     text-align: center;
 }
+
 .event {
     text-align: center;
 }
+
 
 
 
@@ -360,6 +391,7 @@ a.active:before {
 
 
 
+
 /* Body */
 
 .Apply {
@@ -378,6 +410,7 @@ body {
 
 
 
+
 /* Images */
 
 
@@ -387,6 +420,7 @@ body {
     padding: .6em;
     font-size: 18px;
 }
+
 
 
 
@@ -405,9 +439,8 @@ main {
 
 
 
+
 /* Apply & Enroll Here Button */
-
-
 
 
 /* Sign Up Button */
@@ -426,6 +459,7 @@ main {
 .SignUp:focus {
     background-color: #E47070;
 }
+
 
 
 
@@ -465,11 +499,13 @@ main {
 
 
 
+
 /* Careers Fonts */
 
 .careersfont {
     color: black;
 }
+
 
 
 
@@ -492,6 +528,7 @@ main {
     font-size: 46px;
     border-bottom: none;
 }
+
 
 
 
@@ -563,6 +600,7 @@ main {
 
 
 
+
 /* Carousel */
 
 .carousel-cell {
@@ -581,6 +619,7 @@ main {
     display: none;
     /* hide :after */
 }
+
 
 
 
@@ -637,6 +676,7 @@ main {
         font-size: 18px;
     }
 }
+
 
 
 
