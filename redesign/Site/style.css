@@ -53,13 +53,15 @@ h3 {
 
 h4 {
     font-family: 'Roboto';
-    font-weight: bold;
-    color: #BCD2EE;
+    font-size: 30px;
+    font-weight: 500;
+    color: #51A3A3;
 }
 
 h5 {
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 36px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 p {
@@ -67,6 +69,75 @@ p {
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
+}
+
+.regBtn {
+    background-color: #97C9AB;
+    font-family: "Roboto";
+    color: #FFF;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    overflow: visible;
+    border: 0;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-clip: padding-box;
+    padding: 7px 15px;
+    margin: 10px 0;
+}
+
+.green {
+    background-color: #82D173;
+}
+
+.red {
+    background-color: #9B1D20;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #97C9AB;
+    padding: 10px;
+}
+.footerText {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.footerContact {
+    width: 50%;
+    padding: 0 20px;
+    text-align: left;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+.footerInfo {
+    width: 100%;
+}
+.footerLinks {
+            list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerLinks li {
+    margin: 10px 0;
+}
+.footerLinks li a {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #FFF;
+    text-transform: uppercase;
 }
 
 /*Top Main*/
@@ -83,7 +154,7 @@ p {
 .main-title {
     color: #fff;
     text-shadow: 2px 2px 2px #000;
-    background-color: rgba(151,201,171,.6);
+    background-color: rgba(188,210,238,.6);
     padding: 0;
     position: absolute;
     bottom: 0;
@@ -105,7 +176,7 @@ p {
 
 .page_width {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 /* NAVIGATION */
@@ -159,9 +230,9 @@ a.active:before {
 
 /* Main Area Div */
 
-.main_area {
+#main_area {
     display: flex;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
 .curriculumButton {
@@ -253,9 +324,15 @@ a.active:before {
 .event {
     text-align: center;
 }
-.contact {
-    color: black;
-}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -482,18 +559,6 @@ main {
         border-right: 10px solid transparent;
         border-top: 10px solid #036800;
     }
-}
-
-
-
-/* Footer */
-
-footer {
-    background-color: #C2A9DB;
-    padding: .5em;
-    font-size: 14px;
-    text-align: center;
-    padding-left: 40px;
 }
 
 
