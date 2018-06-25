@@ -111,6 +111,10 @@ p {
     color: #fff;
 }
 
+.centerIt {
+    text-align: center;
+}
+
 /* =============================================================== */
 /*#  FOOTER STYLES          ========================================== */
 /* =============================================================== */
@@ -386,21 +390,32 @@ a.active:before {
 .enrollFiller {
     width: 300px;
 }
-
 .halfWidth {
     width: 50%;
 }
 
-.centerIt {
-    text-align: center;
+/* NEWS & EVENTS */
+
+.newsEvents {
+    border: 5px solid #51A3A3;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.newsEvents p {
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.event {
-    text-align: center;
+.changeBackground {
+    background-color: #51A3A3;
 }
 
-
-
+.changeBackground_2 {
+    background-color: #82D173;
+}
+.addSpace {
+    padding-top: 10px;
+}
 
 
 
