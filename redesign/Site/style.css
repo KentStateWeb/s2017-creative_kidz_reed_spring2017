@@ -622,9 +622,24 @@ a.active:before {
     background-color: #9B1D20;
     margin: 20px -10px;
 }
-.middleImage2 {
-    margin-bottom: 0;
-    
+.fillerImage2 {
+    width: 100%;
+    margin: 20px 0;
+}
+.quoteOverText {
+    position: absolute; 
+    top: 50px;
+    padding: 0 120px;
+}
+.quoteOverlay {
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Roboto, sans-serif;
+}
+.middle2 {
+    position: relative;
 }
 
 
