@@ -569,15 +569,21 @@ a.active:before {
 
 .careersMain {
     padding-top: 20px;
+    display: flex;
 }
-.roundedImage {
-    border-radius: 15px;
+.changeImage {
     margin: 0 auto;
     display: block;
 }
 .staffImage {
     width: 500px;
     border-radius: 15px;
+}
+.imageLeft {
+    width: 45%;
+}
+.careersText {
+    width: 45%;
 }
 .staffBox1 {
     position: relative;
@@ -616,6 +622,8 @@ a.active:before {
     background-color: #9B1D20;
     margin: 20px -10px;
 }
+
+
 
 /* =============================================================== */
 /*#  CURRICULUM PAGE           ========================================== */
