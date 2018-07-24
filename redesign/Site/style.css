@@ -19,7 +19,11 @@ the left
 * Change out some pictures, fix sizing, and whatever is mentioned in review
 
 /* =============================================================== */
+
+
 /*#  UNIVERSAL STYLES       ========================================== */
+
+
 /* =============================================================== */
 
 * {
@@ -115,20 +119,27 @@ p {
     text-align: center;
 }
 
-@media screen screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
     p {
         font-size: 18px;
+        line-height: 22px;
     }
 }
 
-@media screen screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
     p {
         font-size: 20px;
+        line-height: 24px;
     }
 }
 
+
 /* =============================================================== */
+
+
 /*#  FOOTER STYLES          ========================================== */
+
+
 /* =============================================================== */
 
 footer {
@@ -181,42 +192,84 @@ footer {
     display: flex;
     width: 35%;
 }
+
 .social {
     margin: 0 5px;
 }
 
 .facebook {
-   background-image: url(https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/fontIcon/svg/facebook.svg);
+    background-image: url(https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/fontIcon/svg/facebook.svg);
     display: block;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
+
 .twitter {
-   background-image: url(https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/fontIcon/svg/twitter.svg);
+    background-image: url(https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/fontIcon/svg/twitter.svg);
     display: block;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
+
 .tumblr {
-   background-image: url(https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/fontIcon/svg/tumblr.svg);
+    background-image: url(https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/fontIcon/svg/tumblr.svg);
     display: block;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
+
 .linkedin {
-   background-image: url(https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/fontIcon/svg/linkedin.svg);
+    background-image: url(https://kentstateweb.github.io/s2017-creative_kidz_reed_spring2017/redesign/fontIcon/svg/linkedin.svg);
     display: block;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 640px) {
+    .flexboxFeature {
+        display: block;
+    }
+    .footerInfo,
+    .socialMedia,
+    .footerContact {
+        width: 100%;
+        text-align: center;
+    }
+    .socialMedia {
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .footerInfo {
+        margin: 20px 0;
+    }
+    .footerLinks {
+        text-align: center;
+    }
+    .footerText {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .footerLinks li {
+        margin: 5px 0;
+    }
+    .footerLinks li a {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+}
+
 
 
 /* =============================================================== */
+
+
 /*#  MAIN NAVIGATION/HEADER         ========================================== */
+
+
 /* =============================================================== */
 
 .top-main {
@@ -258,6 +311,7 @@ footer {
 }
 
 
+
 /* =============================================================== */
 /*#  NAVIGATION      ========================================== */
 /* =============================================================== */
@@ -265,7 +319,6 @@ footer {
 img {
     width: 80%;
 }
-
 nav {
     padding-right: 10px;
     background-color: #9B1D20;
@@ -273,17 +326,14 @@ nav {
     padding: 30px 10px;
     position: relative;
 }
-
 nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
 }
-
 .main-nav li {
     margin-left: 10px;
 }
-
 .main-nav li,
 .main-nav a {
     text-decoration: none;
@@ -308,9 +358,11 @@ a.active:before {
 }
 
 
+
 /* =============================================================== */
 /*#  INDEX PAGE           ========================================== */
 /* =============================================================== */
+
 
 /* Main Area Div */
 
@@ -334,7 +386,6 @@ a.active:before {
     ;
     width: 98%;
 }
-
 .ourMisson p {
     width: 98%;
 }
@@ -344,17 +395,16 @@ a.active:before {
 .middleImage {
     margin-bottom: 0;
 }
-
 .button {
     margin: 20px 70px;
     width: 70%;
     text-align: center;
 }
-
 .fillerImage {
     width: 100%;
     margin-bottom: 0;
 }
+
 
 /* Middle Testimonial Div */
 
@@ -364,12 +414,10 @@ a.active:before {
     margin-top: 0;
     display: flex;
 }
-
 .testimonial_1 {
     width: 50%;
     padding: 20px 60px;
 }
-
 .testimonial_text {
     font-size: 20px;
     line-height: 28px;
@@ -378,12 +426,10 @@ a.active:before {
     color: #fff;
     margin: 20px;
 }
-
 .imageTestimonials {
     width: 50%;
     text-align: center;
 }
-
 .roundImages {
     width: 214px;
     margin: 20px 10px;
@@ -396,7 +442,6 @@ a.active:before {
     display: flex;
     padding: 20px 0;
 }
-
 .enrollFiller {
     width: 300px;
 }
@@ -420,11 +465,6 @@ a.active:before {
     font-size: 18px;
     font-weight: 500;
 }
-
-.changeBackground {
-    
-}
-
 .changeBackground_2 {
     background-color: #82D173;
 }
@@ -442,6 +482,7 @@ a.active:before {
         display: none;
     }
 }
+
 
 /*#  Tablet Down        ========================================== */
 
@@ -474,6 +515,7 @@ a.active:before {
         margin: 20px 15%;
     }
 }
+
 
 /*#  Mobile Down        ========================================== */
 
@@ -563,6 +605,7 @@ a.active:before {
     }
 }
 
+
 /* =============================================================== */
 /*#  CAREERS PAGE        ========================================== */
 /* =============================================================== */
@@ -571,53 +614,65 @@ a.active:before {
     padding-top: 20px;
     display: flex;
 }
+
 .changeImage {
     margin: 0 auto;
     display: block;
 }
+
 .staffImage {
     width: 500px;
     border-radius: 15px;
 }
+
 .imageLeft {
     width: 50%;
 }
+
 .careersText {
     width: 50%;
 }
+
 .staffBox1 {
     position: relative;
 }
-.staffBox2 {     
+
+.staffBox2 {
     width: 45%;
     margin-left: 2%;
     padding: 20px 30px;
     border-radius: 15px;
     background-color: #51A3A3;
 }
+
 .staffBox2 p {
     font-size: 16px;
     line-height: 18px;
     font-weight: 300;
     color: #fff;
 }
+
 .names {
     position: absolute;
     bottom: 8%;
     left: 20px;
 }
+
 .names1 {
     position: absolute;
     top: 77%;
     left: 20px;
 }
+
 .staffMember {
     display: flex;
     margin: 20px 0;
 }
+
 .staffMember h4 {
     color: #fff;
 }
+
 .teacherQuote {
     color: #fff;
     font-family: "Roboto Condensed";
@@ -628,27 +683,35 @@ a.active:before {
     background-color: #9B1D20;
     margin: 20px -30px;
 }
+
 .careersTestimonial {
     background: url('images/careers/main_1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     margin: 20px 0;
 }
-.testimonial_text2 { 
+
+.testimonial_text2 {
     font-size: 30px;
     line-height: 40px;
     font-style: italic;
     font-weight: 300;
     color: #fff;
- }
+}
+
+.mobile {
+    display: none;
+}
+
 
 /*#  Big Screen      ========================================== */
 
 @media only screen and (max-width: 1408px) {}
 
+
 /*#  Tablet Down        ========================================== */
 
-    @media only screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
     .careersMain {
         display: block;
     }
@@ -664,39 +727,75 @@ a.active:before {
     }
     .staffMember {
         display: block;
+        background-color: #BCD2EE;
+        padding: 10px 0;
+        border-radius: 15px;
+    }
+    .staffMember h4 {
+        color: #000;
     }
     .staffImage {
-        width: 500px;
+        max-width: 500px;
         display: block;
         margin: 0 auto;
     }
     .staffBox2 {
         width: 100%;
         margin-left: 0;
-        background-color: #fff;
+        background-color: #BCD2EE;
     }
     .staffBox2 p {
         color: #000;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .teacherQuote {
+        font-size: 20px;
     }
     .names {
-        position: absolute;
-        bottom: 8%;
-        left: 24%;
+        position: initial;
+        margin: 0 25px;
     }
     .names1 {
-        position: absolute;
-        top: 77%;
-        left: 24%;
+        position: initial;
+        margin: 0 25px;
+    }
+    .desktop {
+        display: none;
     }
 }
 
+
 /*#  Mobile Down        ========================================== */
 
-@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 640px) {
+    .staffMember {
+        margin: 0px -20px;
+        border-bottom: 1px solid #9B1D20;
+    }
+    .staffMember:nth-child(odd) {
+        background-color: #51A3A3;
+    }
+    .staffBox2 {
+        background-color: initial;
+    }
+    .staffBox2 p {}
+    .staffImage {
+        max-width: 300px;
+    }
+    .meetStaff {
+        margin-bottom: 10px;
+    }
+    .page_width {
+        margin-bottom: 10px !important;
+    }
+}
+
 
 /* =============================================================== */
 /*#  CURRICULUM PAGE           ========================================== */
 /* =============================================================== */
+
 
 /*Light Blue: #BCD2EE;
 Green (logo): #97C9AB
@@ -707,15 +806,18 @@ Red: #9B1D20;*/
 .curriculumText {
     margin: 30px 0;
 }
+
 .ages {
     margin: 10px 0;
     font-size: 22px;
 }
+
 .sections p {
     margin: 10px 0;
     font-size: 18px;
     font-weight: 300;
 }
+
 .sections a {
     background-color: #97C9AB;
     font-family: "Roboto";
@@ -738,43 +840,54 @@ Red: #9B1D20;*/
     margin: 10px 0;
 }
 
+
 /*MIDDLE*/
 
 .currMiddle1 {
     margin-top: 100px;
     background-color: #9B1D20;
 }
+
 .currMiddle1 p {
     font-weight: 300;
     font-style: italic;
     color: #fff;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 650px;
 }
+
 .Bigger {
     width: 260px;
     margin: 10px auto;
     display: block;
 }
+
 .textRight {
     width: 50%;
-    padding: 20px 0;
+    padding: 20px;
+    max-width: 600px;
 }
+
 .textRight p {
     color: white;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 24px;
     text-align: center;
 }
+
 .textRight a {
     display: block;
     margin: 8px auto;
     width: 200px;
 }
+
 .textRight p:first-child {
     font-size: 30px;
     line-height: 36px;
 }
+
+
 /*CAROUSEL */
 
 .flickity-viewport {
@@ -802,6 +915,7 @@ Red: #9B1D20;*/
     content: 'flickity';
     display: none;
 }
+
 
 /*TAB FUNCTION*/
 
@@ -849,6 +963,7 @@ Red: #9B1D20;*/
     display: none;
 }
 
+
 /*MEDIA QUERIES */
 
 @media screen and (min-width: 640px) {
@@ -875,20 +990,46 @@ Red: #9B1D20;*/
     }
 }
 
+
 /*#  Big Screen      ========================================== */
 
 @media only screen and (max-width: 1408px) {}
 
+
 /*#  Tablet Down        ========================================== */
 
-@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 960px) {
+    .currMiddle1,
+    .currMiddle2 {
+        height: 400px;
+    }
+    .currMiddle1 p {
+        font-weight: 200;
+        font-style: inherit;
+        color: #fff;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .currMiddle1 .testimonial_1,
+    .currMiddle2 .testimonial_1 {
+        padding: 20px 20px;
+    }
+    .textRight {
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
 
 /*#  Mobile Down        ========================================== */
 
-@media only screen and (max-width: 640px) {}
-
-
-
-
-
-
+@media only screen and (max-width: 640px) {
+     .currMiddle1,
+    .currMiddle2 {
+        height: auto;
+    }
+    .textRight {
+        width: 98%;
+        padding: 10px;
+    }
+}
