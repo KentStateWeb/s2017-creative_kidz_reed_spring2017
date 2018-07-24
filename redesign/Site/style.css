@@ -385,7 +385,7 @@ a.active:before {
 }
 
 .roundImages {
-    width: 215px;
+    width: 214px;
     margin: 20px 10px;
 }
 
@@ -580,28 +580,35 @@ a.active:before {
     border-radius: 15px;
 }
 .imageLeft {
-    width: 45%;
+    width: 50%;
 }
 .careersText {
-    width: 45%;
+    width: 50%;
 }
 .staffBox1 {
     position: relative;
 }
 .staffBox2 {     
-    width: 40%;
+    width: 45%;
     margin-left: 2%;
-    padding: 10px 20px;
+    padding: 20px 30px;
     border-radius: 15px;
+    background-color: #51A3A3;
 }
 .staffBox2 p {
     font-size: 16px;
     line-height: 18px;
-    font-weight: 400;
+    font-weight: 300;
+    color: #fff;
 }
 .names {
     position: absolute;
-    bottom: 30px;
+    bottom: 8%;
+    left: 20px;
+}
+.names1 {
+    position: absolute;
+    top: 77%;
     left: 20px;
 }
 .staffMember {
@@ -619,7 +626,7 @@ a.active:before {
     padding: 10px 20px 10px 20px;
     font-size: 18px;
     background-color: #9B1D20;
-    margin: 20px -10px;
+    margin: 20px -30px;
 }
 .careersTestimonial {
     background: url('images/careers/main_1.jpg') no-repeat;
@@ -635,7 +642,57 @@ a.active:before {
     color: #fff;
  }
 
+/*#  Big Screen      ========================================== */
 
+@media only screen and (max-width: 1408px) {}
+
+/*#  Tablet Down        ========================================== */
+
+    @media only screen and (max-width: 960px) {
+    .careersMain {
+        display: block;
+    }
+    .imageLeft {
+        width: 100%;
+    }
+    .careersText {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .careersText p {
+        font-size: 18px;
+    }
+    .staffMember {
+        display: block;
+    }
+    .staffImage {
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+    .staffBox2 {
+        width: 100%;
+        margin-left: 0;
+        background-color: #fff;
+    }
+    .staffBox2 p {
+        color: #000;
+    }
+    .names {
+        position: absolute;
+        bottom: 8%;
+        left: 24%;
+    }
+    .names1 {
+        position: absolute;
+        top: 77%;
+        left: 24%;
+    }
+}
+
+/*#  Mobile Down        ========================================== */
+
+@media only screen and (max-width: 640px) {}
 
 /* =============================================================== */
 /*#  CURRICULUM PAGE           ========================================== */
@@ -660,7 +717,7 @@ Red: #9B1D20;*/
     font-weight: 300;
 }
 .sections a {
-    background-color: #51A3A;
+    background-color: #97C9AB;
     font-family: "Roboto";
     color: #FFF;
     font-size: 24px;
@@ -681,6 +738,43 @@ Red: #9B1D20;*/
     margin: 10px 0;
 }
 
+/*MIDDLE*/
+
+.currMiddle1 {
+    margin-top: 100px;
+    background-color: #9B1D20;
+}
+.currMiddle1 p {
+    font-weight: 300;
+    font-style: italic;
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+}
+.Bigger {
+    width: 260px;
+    margin: 10px auto;
+    display: block;
+}
+.textRight {
+    width: 50%;
+    padding: 20px 0;
+}
+.textRight p {
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.textRight a {
+    display: block;
+    margin: 8px auto;
+    width: 200px;
+}
+.textRight p:first-child {
+    font-size: 30px;
+    line-height: 36px;
+}
 /*CAROUSEL */
 
 .flickity-viewport {
@@ -690,8 +784,9 @@ Red: #9B1D20;*/
 }
 
 .carouselImg {
-    width: 850px;
+    max-width: 900px;
     margin: 0 auto;
+    border-radius: 15px;
 }
 
 .carousel-cell {
@@ -780,89 +875,17 @@ Red: #9B1D20;*/
     }
 }
 
-/* =============================================================== */
-/*#  ALL MEDIA QUERIES          ========================================== */
-/* =============================================================== */
+/*#  Big Screen      ========================================== */
 
+@media only screen and (max-width: 1408px) {}
 
+/*#  Tablet Down        ========================================== */
 
-/* NavBar Curriculum */
+@media only screen and (max-width: 960px) {}
 
-.MoreCurriculum ul {
-    list-style-type: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    font-size: 18px;
-    font-family: 'Muli', sans-serif;
-    text-decoration: none;
-}
+/*#  Mobile Down        ========================================== */
 
-
-
-
-
-/* Body */
-
-.Apply {
-    padding-bottom: 1em;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.News {
-    margin: auto;
-    color: #E47070;
-}
-
-/* Careers Images Menu */
-
-.profile {
-    border: 1px solid #60D394;
-    max-width: 1200px;
-}
-
-.flex-item {
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 2px dotted #97C9AB;
-}
-
-.left {
-    text-align: center;
-}
-
-
-
-@media screen and (min-width:650px) {
-    .flex-item {
-        display: flex;
-        padding: 10px;
-        justify-content: flex-start;
-        flex-wrap: nowrap;
-    }
-
-    .information {
-        display: flex;
-        padding: 20px;
-        flex-direction: column;
-    }
-}
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 640px) {}
 
 
 
