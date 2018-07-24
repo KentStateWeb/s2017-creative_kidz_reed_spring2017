@@ -41,6 +41,7 @@ the left
 h1 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 64px;
+    line-height: 74px;
     color: #9B1D20;
 }
 
@@ -67,7 +68,7 @@ h4 {
 h5 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 34px;
 }
 
 p {
@@ -1033,3 +1034,64 @@ Red: #9B1D20;*/
         padding: 10px;
     }
 }
+
+/*Pattern Library*/
+
+.fonts h5 {
+    margin-bottom: 10px;
+}
+.fonts {
+    margin-bottom: 10px;
+}
+
+
+
+/*Light Blue: #BCD2EE;
+Green (logo): #97C9AB
+Bright Green: #82D173;
+Teal: #51A3A3;
+Red: #9B1D20;*/
+
+.colors {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color1 { background-color:#BCD2EE; }
+.color2 { background-color:#97C9AB; }
+.color3 { background-color:#82D173; }
+.color4 { background-color:#51A3A3; }
+.color5 { background-color:#9B1D20; }
+
+.colors li {
+    display: inline-block;
+    flex-direction: row;
+    width: 15%;
+    margin: 1em .5em;
+    padding: .5em;
+    box-shadow: 0 1px 4px -1px rgba(0,0,0,.5);
+}
+.swatch {
+    display: block;
+    height: 0;
+    margin-bottom: .5em;
+    padding: 100% 0 0;
+}
+span {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
